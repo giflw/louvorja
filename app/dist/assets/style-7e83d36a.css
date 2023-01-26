@@ -7296,8 +7296,8 @@
 }
 @font-face {
     font-family: 'DIN Pro';
-    src: url('./DINPro-CondThin_1-2080afc6.eot');
-    src: url('./DINPro-CondThin_1-2080afc6.eot?#iefix') format('embedded-opentype'),
+    src: url('./DINPro-CondThin-2080afc6.eot');
+    src: url('./DINPro-CondThin-2080afc6.eot?#iefix') format('embedded-opentype'),
         url('./DINPro-CondThin-f43a3ae4.woff2') format('woff2'),
         url('./DINPro-CondThin-2b507056.woff') format('woff'),
         url('./DINPro-CondThin-20f3619f.ttf') format('truetype');
@@ -7318,8 +7318,8 @@
 }
 @font-face {
     font-family: 'DIN Pro';
-    src: url('./DINPro-CondThin_1-2080afc6.eot');
-    src: url('./DINPro-CondThin_1-2080afc6.eot?#iefix') format('embedded-opentype'),
+    src: url('./DINPro-CondThin-2080afc6.eot');
+    src: url('./DINPro-CondThin-2080afc6.eot?#iefix') format('embedded-opentype'),
         url('./DINPro-CondThin-f43a3ae4.woff2') format('woff2'),
         url('./DINPro-CondThin-2b507056.woff') format('woff'),
         url('./DINPro-CondThin-20f3619f.ttf') format('truetype');
@@ -21585,18 +21585,42 @@ html.overflow-y-hidden {
 html {
   font-family: "DIN Condensed";
 }
-/*# sourceMappingURL=control.scss.map */.preview[data-v-72b0a2de] {
+/*# sourceMappingURL=control.scss.map */.preview[data-v-ed3c3df1] {
+  aspect-ratio: 16/9;
   background: yellow;
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  text-align: center;
+  position: relative;
 }
-.preview > iframe[data-v-72b0a2de] {
+.preview > span[data-v-ed3c3df1] {
+  font-family: monospace;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  z-index: 800;
+}
+.preview > iframe[data-v-ed3c3df1] {
+  z-index: 900;
   border: none;
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
+}
+.preview-url[data-v-ed3c3df1] {
+  /*font-family: "DIN Pro";*/
+  white-space: nowrap;
+  text-align: center;
+  direction: rtl;
+  overfow-x: hidden;
 }.v-application {
   display: flex;
   background: rgb(var(--v-theme-background));
