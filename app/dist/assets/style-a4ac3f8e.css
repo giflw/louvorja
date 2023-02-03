@@ -21585,18 +21585,36 @@ html.overflow-y-hidden {
 html {
   font-family: "DIN Condensed";
 }
-/*# sourceMappingURL=control.scss.map */.preview[data-v-ed3c3df1] {
+/*# sourceMappingURL=control.scss.map */.drawer-right[data-v-93d8f266] {
+  height: 100%;
+}
+.drawer-right[data-v-93d8f266]:before {
+  z-index: 0;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./bg-drawer-right-dfcd3301.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  opacity: 0.1;
+}
+.preview[data-v-93d8f266] {
   aspect-ratio: 16/9;
-  background: yellow;
+  background: transparent;
   width: 100%;
   box-sizing: border-box;
   display: flex;
   text-align: center;
   position: relative;
 }
-.preview > span[data-v-ed3c3df1] {
+.preview > span[data-v-93d8f266] {
   font-family: monospace;
-  color: black;
+  color: rgba(var(--v-theme-primary));
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -21606,21 +21624,39 @@ html {
   font-size: 3rem;
   transform: translate(-50%, -50%);
   z-index: 800;
+  opacity: 0.3;
 }
-.preview > iframe[data-v-ed3c3df1] {
+.preview > iframe[data-v-93d8f266] {
   z-index: 900;
+  opacity: 0.75;
   border: none;
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
 }
-.preview-url[data-v-ed3c3df1] {
-  /*font-family: "DIN Pro";*/
+.preview-url[data-v-93d8f266] {
   white-space: nowrap;
   text-align: center;
   direction: rtl;
   overfow-x: hidden;
+}.wrapper-main[data-v-915c42df] {
+  height: 100%;
+}
+.wrapper-main[data-v-915c42df]:before {
+  z-index: 0;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./bg-main-49120681.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
 }.v-application {
   display: flex;
   background: rgb(var(--v-theme-background));
@@ -32953,16 +32989,16 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}.logo-wrapper[data-v-5877921e] {
+}.logo-wrapper[data-v-02ea9f2c] {
   position: relative;
 }
-.logo[data-v-5877921e] {
+.logo[data-v-02ea9f2c] {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(images/louvor-ja.svg);
+  background-image: url(./images/louvor-ja.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
